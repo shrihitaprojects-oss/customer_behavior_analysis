@@ -12,9 +12,9 @@ The goal is to extract meaningful insights from raw data and present them in a c
 
 ## 📁 Dataset
 
-* Source: 
+* Source: [Customer Shopping Behavior Dataset]https://raw.githubusercontent.com/shrihitaprojects-oss/customer_behavior_analysis/refs/heads/main/customer_shopping_behavior.csv 
 * Format: CSV / Excel / Database
-* Description: The dataset contains [brief description of data, e.g., sales transactions, customer data, etc.]
+* Description: The dataset contains customer purchasing behavior across various demographics, product categories, and transaction details. It is used to analyze patterns in consumer spending and preferences.
 
 ---
 
@@ -86,7 +86,8 @@ The goal is to extract meaningful insights from raw data and present them in a c
   * Trends and comparisons
   * Filters for dynamic analysis
 
-[Add dashboard screenshots or link here]
+<img width="1162" height="635" alt="image" src="https://github.com/user-attachments/assets/c03cbf1c-4710-4757-bbfa-00cb768483de" />
+
 
 ---
 
@@ -94,7 +95,26 @@ The goal is to extract meaningful insights from raw data and present them in a c
 
 * Identified key trends and patterns in the data
 * Highlighted actionable insights for decision-making
-* Improved understanding of [business/domain problem]
+* Improved understanding of ## 🗄️ SQL Analysis (PostgreSQL)
+
+Performed SQL analysis to extract key business insights:
+
+* **Revenue Analysis:** Compared total revenue by gender
+* **Customer Behavior:** Identified high-spending customers using discounts
+* **Product Insights:** Found top-rated and most purchased products
+* **Shipping Analysis:** Compared spending across shipping types
+* **Subscription Impact:** Analyzed spending patterns of subscribed vs non-subscribed users
+* **Discount Trends:** Measured discount usage across products
+* **Customer Segmentation:** Classified customers as New, Returning, and Loyal
+* **Repeat Buyers:** Evaluated relationship between repeat purchases and subscriptions
+* **Demographics:** Analyzed revenue contribution by age group
+
+### 💡 Key Insights
+
+* Loyal and subscribed customers contribute higher revenue
+* Discounts influence purchasing behavior
+* Certain products and categories consistently perform better
+
 
 ---
 
@@ -147,8 +167,9 @@ This project showcases a complete data analytics pipeline, combining programming
 ---
 
 ## 🙌 Acknowledgements
-
-* Dataset source: [Add source]
-* Tools and libraries used in the project
+- Python (Pandas, NumPy, Matplotlib, Seaborn)  
+- PostgreSQL  
+- Power BI  
+- Gamma (for presentation)
 
 ---
